@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "WeekdayProj",
-    "slug": "frontend",
+    "name": "Ti",
+    "slug": "ti-frontend",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [

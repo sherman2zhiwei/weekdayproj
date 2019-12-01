@@ -28,7 +28,13 @@
       "bundleIdentifier": "com.weekdayproj.ti"
     },
     "android": {
-      "package": "com.weekdayproj.ti"
+      "package": "com.weekdayproj.ti",
+      "config": {
+        "googleSignIn":{
+          "apiKey": "AIzaSyDs9AlfOTntA_bv_kitNUcct5kpJ_zjb0g",
+          "certificateHash": "66:92:58:8C:F6:0D:7C:EA:10:CF:1B:61:F6:04:2F:AF:28:52:CB:FC"
+        }
+      }
     }
   }
 }

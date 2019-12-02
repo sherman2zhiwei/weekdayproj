@@ -13,9 +13,9 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/ti_splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#D1CFC8"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

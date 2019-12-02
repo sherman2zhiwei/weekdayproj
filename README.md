@@ -16,3 +16,4 @@ Main Brand Color : 8B0000 (can be liberally applied to layout as main identity)
 Dark Accent : DF7936 (another accent color to consider, purpose is to highlight by contrasting. Don't use too much though)
 Dark Shades : 2B2833 (Use as the text color for dark-on-light designs, or background for inverted designs)
 
+Logo Font : Futura PT Light

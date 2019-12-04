@@ -4,7 +4,8 @@ const { User, validate } = require("../models/user.model");
 const express = require("express");
 const router = express.Router();
 
-router.get("/current", auth, async (req, res) => {
+router.get("/api/users/:id", auth, async (req, res) => {
+  if (req.params.id != req.user._id) return res.status(401).send("Access denied. Not your user profile.");
   const user = await User.findById(req.user._id).select("-password");
   res.send(user);
 });
